@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/song_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/currentSongView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-120dp"
+        android:background="#4c5dbd"
+        android:backgroundTint="?attr/colorPrimaryDark"
+        android:text="TextView - SchoolBoyQ"
+        android:textAlignment="center"
+        android:textColor="@color/colorBackground"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+
+</LinearLayout>
